@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbox-example" />
+        <module name="dubbox-api" />
+        <module name="dubbox-consumer" />
+        <module name="dubbox-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dubbox-api" target="1.5" />
+      <module name="dubbox-consumer" target="1.8" />
       <module name="dubbox-example" target="1.5" />
+      <module name="dubbox-provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubbox-api/dubbox-api.iml" filepath="$PROJECT_DIR$/dubbox-api/dubbox-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbox-consumer/dubbox-consumer.iml" filepath="$PROJECT_DIR$/dubbox-consumer/dubbox-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbox-example.iml" filepath="$PROJECT_DIR$/dubbox-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbox-provider/dubbox-provider.iml" filepath="$PROJECT_DIR$/dubbox-provider/dubbox-provider.iml" />
     </modules>
   </component>
 </project>
